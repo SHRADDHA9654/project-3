@@ -1,0 +1,31 @@
+.wild{
+    text-align: center;
+
+}
+ body{
+margin: 0;
+background: black;
+color: white;
+ }
+  
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .column{
+     flex: 20%;
+     padding: 0 4px;
+ }
+
+ img{
+     margin-top:  6px;
+     filter: grayscale(100%);
+     cursor: pointer;
+     opacity: 0.8;
+ }
+
+ img:hover{
+     filter: grayscale(0);
+     opacity: 1;
+ }
